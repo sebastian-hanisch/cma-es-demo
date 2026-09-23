@@ -157,7 +157,7 @@ m1, m2, m3 = st.columns(3)
 m1.metric("Im globalen Trichter gelandet?", "Ja" if a.found_global else "Nein")
 m2.metric("Abstand zum Gitter-Optimum", f"{a.gap:+.1f} %")
 m3.metric("Endgültige Schrittweite σ", f"{result.sigma_history[-1]:.4f}")
-st.plotly_chart(build_sigma_curve(result.sigma_history), width="stretch")
+st.plotly_chart(build_sigma_curve(result.sigma_history), width="stretch", key="sigma_curve")
 
 st.markdown("---")
 
