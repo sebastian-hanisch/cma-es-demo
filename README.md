@@ -1,5 +1,7 @@
 # 🧬 CMA-ES – Selbstadaptive Kovarianzmatrix-Stichprobe
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-cma-es-demo.streamlit.app/)**
+
 Fünftes Stück der **Populations-Metaheuristiken-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) –
 Operations Research und Machine Learning. Kontrast zu [genetic-algorithm-demo](https://sebastianhanisch-genetic-algorithm-demo.streamlit.app/)
 für kontinuierliche Landschaften: CMA-ES (Hansen & Ostermeier) ersetzt GAs Crossover/Mutation durch eine einzige
