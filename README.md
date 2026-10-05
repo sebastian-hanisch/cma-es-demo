@@ -75,7 +75,7 @@ nsga3-demos pymoo-Achsenabschnitten. Zusätzlich: beide Implementierungen finden
 
 ## Tests
 
-67 Tests (`pytest tests/ -v`): Rekombinationsgewichte/μ_eff/$c_c$/$c_1$/$\chi_n$ exakt gegen `pycma` geprüft (mehrere
+71 Tests (`pytest tests/ -v`): Rekombinationsgewichte/μ_eff/$c_c$/$c_1$/$\chi_n$ exakt gegen `pycma` geprüft (mehrere
 Dimensionen/Populationsgrößen), $c_\sigma$/$d_\sigma$/$c_\mu$ per Handrechnung und als dokumentierte bewusste
 Abweichung von `pycma` getestet, Konvergenz auf Kugel-/Ellipsoid-Funktion (eigene Implementierung UND `pycma` im
 Vergleich), Szenario-Erzeugung bitidentisch zu genetic-algorithm-demo geprüft, AppTest-Rauchtests (jedes Preset,
