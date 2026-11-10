@@ -11,7 +11,7 @@ SIGMA_MIN, SIGMA_MAX = 6.0, 14.0  # Breite eines Trichters
 GRID_STEP = 1.0                   # Auflösung des Referenz-Gitters (Grid-Search-Minimum) in km
 
 DIM = 2
-START_XY = (AREA / 2.0, AREA / 2.0)   # fester Startpunkt (Gebietsmitte) - wie bei GAs zufälliger Startpopulation trägt die
+START_XY = (AREA / 2.0, AREA / 2.0)   # fester Startpunkt (Gebietsmitte) - wie bei GAs zufälliger Startpopulation liefert die
                                        # Zufälligkeit hier allein der Stichproben-Seed, nicht der Startpunkt
 
 # --- CMA-ES --------------------------------------------------------------------------------------------------------------------------------

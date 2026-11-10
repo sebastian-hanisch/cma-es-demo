@@ -25,7 +25,7 @@ Dieselbe kontinuierliche Standortwahl wie genetic-algorithm-demo: Kosten eines P
 sind mehrere Gauß-Mulden unterschiedlicher Tiefe/Breite (`K_WELLS=5`) - nur die tiefste ist das globale Optimum, der
 Rest sind lokale Minima. **`cma_scenario.generate_real` reproduziert die Vehikel-Erzeugung wortgleich** - bei
 Standard-Vehikel-Seed 35 bitidentisch zu genetic-algorithm-demo, direkt zitierbare Vergleichszahlen. Der Startpunkt
-ist fest die Gebietsmitte - anders als bei GAs zufälliger Startpopulation trägt hier allein der Stichproben-Seed die
+ist fest die Gebietsmitte - anders als bei GAs zufälliger Startpopulation liefert hier allein der Stichproben-Seed die
 Zufälligkeit, nicht der Startpunkt.
 
 ## Methodik
